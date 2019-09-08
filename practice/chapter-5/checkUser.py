@@ -7,7 +7,7 @@
 #create hash table
 userDict = {}
 
-def checkVote(name):
+def check_vote(name):
     if userDict.get(name):
         print ('kick {} out'.format(name))
     else:
@@ -16,9 +16,9 @@ def checkVote(name):
 
 
 #test twice same name
-checkVote('baba')
-checkVote('baba')
+check_vote('baba')
+check_vote('baba')
 
 #check twice diferent name
-checkVote('baba2')
-checkVote('baba3')
+check_vote('baba2')
+check_vote('baba3')
